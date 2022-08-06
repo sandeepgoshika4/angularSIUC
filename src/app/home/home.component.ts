@@ -55,7 +55,7 @@ comment = '';
 
     console.log(obj);
 
-    this.http.post("http://localhost:3000/",obj).subscribe((result) => {});
+    this.http.post("https://siuassignment5.herokuapp.com/",obj).subscribe((result) => {});
 
     alert( ' Thank you for submitting the form.');
 
